@@ -1,0 +1,315 @@
+# Copyright (C) 2024 lightning-deal-for-woo
+# This file is distributed under the same license as the lightning-deal-for-woo package.
+msgid ""
+msgstr ""
+"Project-Id-Version: lightning-deal-for-woo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-15 18:00+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/class-woold-admin.php:56
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: admin/class-woold-admin.php:96
+msgid "Invalid Start date"
+msgstr ""
+
+#: admin/class-woold-admin.php:97
+msgid "Invalid End date"
+msgstr ""
+
+#: admin/class-woold-admin.php:98
+msgid "Start time cannot be later than end time."
+msgstr ""
+
+#: admin/class-woold-admin.php:99
+msgid "Claimed deals starting index cannot be equal or more than max orders limit."
+msgstr ""
+
+#: admin/class-woold-post-type.php:58, admin/class-woold-settings.php:55
+msgid "Lightning Deal"
+msgstr ""
+
+#: admin/class-woold-post-type.php:156, admin/class-woold-post-type.php:163
+msgid "No data available."
+msgstr ""
+
+#: admin/class-woold-settings.php:54
+msgid "Lightning Deal for WooCommerce"
+msgstr ""
+
+#: admin/settings.php:26, admin/settings.php:39
+msgid "General"
+msgstr ""
+
+#: admin/settings.php:30, admin/settings.php:79
+msgid "Display"
+msgstr ""
+
+#: admin/settings.php:44
+msgid "Label"
+msgstr ""
+
+#: admin/settings.php:45
+msgid "Label to use for \"Lightning Deal\""
+msgstr ""
+
+#: admin/settings.php:51
+msgid "Show Claimed bar if"
+msgstr ""
+
+#: admin/settings.php:54
+msgid "Always Show"
+msgstr ""
+
+#: admin/settings.php:55
+msgid "More than x% is claimed"
+msgstr ""
+
+#: admin/settings.php:56
+msgid "Never show"
+msgstr ""
+
+#: admin/settings.php:62
+msgid "Bar Threshold Percentage"
+msgstr ""
+
+#: admin/settings.php:63
+msgid "Set the percentage at which the claimed bar will display to customers."
+msgstr ""
+
+#: admin/settings.php:69
+msgid "Maximum Cart Items limit"
+msgstr ""
+
+#: admin/settings.php:70
+msgid "Global maximum quantity of any deal product that a customer can purchase. Leave empty for unlimited."
+msgstr ""
+
+#: admin/settings.php:84
+msgid "Position on Single Product Page"
+msgstr ""
+
+#: admin/settings.php:85
+msgid "Position of the lightning deal section on the Single Product page."
+msgstr ""
+
+#: admin/settings.php:88
+msgid "Before Add to cart form"
+msgstr ""
+
+#: admin/settings.php:89
+msgid "Before Add to cart button"
+msgstr ""
+
+#: admin/settings.php:90
+msgid "Before single variation"
+msgstr ""
+
+#: admin/settings.php:91
+msgid "Before Add to cart quantity"
+msgstr ""
+
+#: admin/settings.php:92
+msgid "After Add to cart quantity"
+msgstr ""
+
+#: admin/settings.php:93
+msgid "After single variation"
+msgstr ""
+
+#: admin/settings.php:94
+msgid "After Add to cart button"
+msgstr ""
+
+#: admin/settings.php:100
+msgid "Position on Product Archive Pages."
+msgstr ""
+
+#: admin/settings.php:101
+msgid "Position of the lightning deal section on the Product Archive pages."
+msgstr ""
+
+#: admin/settings.php:104
+msgid "Before shop loop item"
+msgstr ""
+
+#: admin/settings.php:105
+msgid "Before title"
+msgstr ""
+
+#: admin/settings.php:106
+msgid "After title"
+msgstr ""
+
+#: admin/settings.php:107
+msgid "After shop loop item"
+msgstr ""
+
+#: admin/settings.php:113
+msgid "Maximum width"
+msgstr ""
+
+#: admin/settings.php:115
+msgid "Maximum width for the Lightning Deal section on the Single product page."
+msgstr ""
+
+#: admin/settings.php:129
+msgid "Filled Bar color"
+msgstr ""
+
+#: admin/settings.php:135
+msgid "Empty Bar color"
+msgstr ""
+
+#. translators: Setting label.
+#: includes/class-woold-order.php:79
+msgid "%s: Max order limit reached."
+msgstr ""
+
+#. translators: Setting label.
+#: includes/class-woold-order.php:178
+msgid "%s: Maximum order limit reached. Please try to decrease product quantity."
+msgstr ""
+
+#: includes/class-woold-order.php:275
+msgid "Sorry! This deal is not applicable."
+msgstr ""
+
+#. translators: Lightning deal label.
+#: includes/class-woold-order.php:309
+msgid "%s: Max quantity limit reached."
+msgstr ""
+
+#. translators: Lightning deal label.
+#: includes/class-woold-order.php:351
+msgid "%s: Maximum order limit reached."
+msgstr ""
+
+#: includes/class-woold-order.php:418
+msgid "Regular price"
+msgstr ""
+
+#. translators: Lightning Deal discount.
+#. translators: 'Lightning deal' discount.
+#: includes/class-woold-order.php:421, includes/class-woold-order.php:492
+msgid "%s discount"
+msgstr ""
+
+#: includes/class-woold-order.php:423
+msgid "Discounted price"
+msgstr ""
+
+#. translators: With 'Lightning deal' applied.
+#: includes/class-woold-order.php:431
+msgid "With %s applied"
+msgstr ""
+
+#: includes/class-woold-order.php:706
+msgid "%1$s for \"%2$s\" is not applicable anymore."
+msgstr ""
+
+#: public/class-woold-public.php:90
+msgid "Sale had ended"
+msgstr ""
+
+#: templates/admin/lightning-deal-metabox.php:16
+msgid "Enable this deal for"
+msgstr ""
+
+#: templates/admin/lightning-deal-metabox.php:20
+msgid "Specific Products"
+msgstr ""
+
+#: templates/admin/lightning-deal-metabox.php:21
+msgid "Product Category"
+msgstr ""
+
+#: templates/admin/lightning-deal-metabox.php:28
+msgid "Products or Category"
+msgstr ""
+
+#: templates/admin/lightning-deal-metabox.php:32
+msgid "Search Product categories:"
+msgstr ""
+
+#: templates/admin/lightning-deal-metabox.php:45
+msgid "Search Products:"
+msgstr ""
+
+#: templates/admin/lightning-deal-metabox.php:59
+msgid "Time:"
+msgstr ""
+
+#: templates/admin/lightning-deal-metabox.php:64
+msgid "Start:"
+msgstr ""
+
+#: templates/admin/lightning-deal-metabox.php:68
+msgid "End:"
+msgstr ""
+
+#: templates/admin/lightning-deal-metabox.php:76
+msgid "Discount"
+msgstr ""
+
+#: templates/admin/lightning-deal-metabox.php:108
+msgid "Fixed"
+msgstr ""
+
+#: templates/admin/lightning-deal-metabox.php:86
+msgid "Fixed (%s)"
+msgstr ""
+
+#: templates/admin/lightning-deal-metabox.php:89
+msgid "Percentage"
+msgstr ""
+
+#: templates/admin/lightning-deal-metabox.php:117
+msgid "Max orders limit"
+msgstr ""
+
+#: templates/admin/lightning-deal-metabox.php:126
+msgid "Claimed deals starting index"
+msgstr ""
+
+#: templates/admin/lightning-deal-metabox.php:143
+msgid "Max orders calculation method"
+msgstr ""
+
+#: templates/admin/lightning-deal-metabox.php:151
+msgid "Per Product"
+msgstr ""
+
+#: templates/admin/lightning-deal-metabox.php:152
+msgid "Per Deal"
+msgstr ""
+
+#: templates/admin/lightning-deal-stats-metabox.php:18
+msgid "Available in Pro version only."
+msgstr ""
+
+#: templates/admin/lightning-deal-stats-metabox.php:33
+msgid "Total orders"
+msgstr ""
+
+#: templates/admin/lightning-deal-stats-metabox.php:37
+msgid "Total products sold"
+msgstr ""
+
+#. translators: Deal claimed percentage.
+#: templates/frontend/single-product-lightning-bar.php:36
+msgid "%1$d%% claimed"
+msgstr ""
+
+#: templates/frontend/single-product-lightning-bar.php:45
+msgid "This deal is in your cart"
+msgstr ""

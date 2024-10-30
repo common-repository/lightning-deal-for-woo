@@ -1,0 +1,88 @@
+.woold-mb__row {
+	display: grid;
+	grid-template-columns: 30% 70%;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+div#woold_metabox h3 {
+	font-size: 12px;
+	margin: 0;
+}
+
+.woold-mb-time {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+div#woold_metabox .inside {
+	margin-top: 20px;
+}
+
+.woold-mb-discount {
+	display: grid;
+	grid-template-columns: 120px 190px;
+}
+
+.woold-mb-time span {
+	display: block;
+}
+
+.woold-mb-discount--percent input,
+.woold-mb-discount--fixed input {
+	max-width: 100px;
+	margin-right: 4px;
+}
+
+#woold_products,
+#woold_product_categories {
+	width: 200px;
+}
+
+.woold-stats-mb__row_total {
+	display: grid;
+	grid-template-columns: 150px 150px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.woold-stats-mb__row_product {
+	display: grid;
+	grid-template-columns: 200px 100px;
+}
+
+.woold-stats-mb--overlay{
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: 0.1;
+	min-height:120px;
+}
+.woold-available-in-pro{
+	position: absolute;
+	left: 50%;
+	font-size: large;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	z-index: 1;
+}
+
+.woold-pro-btn {
+	display: flex !important;
+	align-items: center;
+	flex-shrink: 1;
+	justify-content: center;
+	gap: 3px;
+	width: 200px;
+}
+
+.woold-available-in-pro a.woold-pro-btn{
+	position: relative;
+	display: block;
+	margin: 10px auto;
+	z-index: 10;
+}
+
+.woold_deal_max_width{
+	width: 175px;
+}
